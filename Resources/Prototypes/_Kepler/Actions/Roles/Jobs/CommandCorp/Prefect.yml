@@ -1,0 +1,24 @@
+- type: job
+  id: Prefect
+  name: job-name-cm-prefect
+  description: job-description-cm-prefect
+  playTimeTracker: JobPrefect
+  weight: 95
+  startingGear: PrefectGear
+  canBeAntag: false
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 45h
+  accessGroups:
+  - AllAccess
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: PrefectGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMercenary

@@ -1,0 +1,27 @@
+- type: job
+  id: Undercommissar
+  name: job-name-cm-undercommissar
+  description: job-description-cm-undercommissar
+  playTimeTracker: JobUndercommissar
+  weight: 100
+  startingGear: UndercommissarGear
+  canBeAntag: false
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 55h
+    - !type:RoleTimeRequirement
+      role: JobPrefect
+      time: 5h
+  accessGroups:
+  - AllAccess
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: UndercommissarGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMercenary

@@ -1,0 +1,24 @@
+- type: job
+  id: Sergeant
+  name: job-name-pc-sergeant
+  description: job-description-pc-sergeant
+  playTimeTracker: JobSergeant
+  weight: 100
+  startingGear: SergeantGear
+  canBeAntag: false
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 35h
+  accessGroups:
+  - AllAccess
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: SergeantGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMercenary

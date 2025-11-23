@@ -1,0 +1,32 @@
+- type: job
+  id: Commissar
+  name: job-name-cm-commissar
+  description: job-description-cm-commissar
+  playTimeTracker: JobCommissar
+  weight: 102
+  startingGear: ComissarGear
+  canBeAntag: false
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 75h
+    - !type:RoleTimeRequirement
+      role: JobUndercommissar
+      time: 20h
+  accessGroups:
+  - AllAccess
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: ComissarGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMercenary
+    pocket1: WeaponPistolMk58
+  storage:
+    back:
+    - Flash
+    - MagazinePistol
