@@ -1,0 +1,26 @@
+- type: job
+  id: Peacekeeper
+  name: job-name-pc-peacekeeper
+  description: job-description-pc-peacekeeper
+  playTimeTracker: JobPeacekeeper
+  weight: 100
+  startingGear: PeacekeeperGear
+  canBeAntag: false
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 6h
+  access:
+  - Brig
+  - Security
+  - Maintenance
+  - Service
+  - External
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: PeacekeeperGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMercenary

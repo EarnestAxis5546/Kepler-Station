@@ -54,3 +54,6 @@
   primary: false
   roles:
   - Sergeant
+  - Watchman
+  - Inspector
+  - Peacekeeper

@@ -1,0 +1,30 @@
+- type: job
+  id: Inspector
+  name: job-name-pc-inspector
+  description: job-description-pc-inspector
+  playTimeTracker: JobInspector
+  weight: 100
+  startingGear: InspectorGear
+  canBeAntag: false
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 6h
+    - !type:RoleTimeRequirement
+      role: JobPeacekeeper
+      time: 3h
+  access:
+  - Brig
+  - Security
+  - Armory
+  - Maintenance
+  - Service
+  - External
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: InspectorGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMercenary

@@ -1,0 +1,27 @@
+- type: job
+  id: Watchman
+  name: job-name-pc-watchman
+  description: job-description-pc-watchman
+  playTimeTracker: JobWatchman
+  weight: 100
+  startingGear: WatchmanGear
+  canBeAntag: false
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 6h
+  access:
+  - Brig
+  - Security
+  - Armory
+  - Maintenance
+  - Service
+  - External
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: WatchmanGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMercenary

@@ -1,0 +1,24 @@
+# CommandCorp
+
+- type: playTimeTracker
+  id: JobCommissar
+
+- type: playTimeTracker
+  id: JobUndercommissar
+
+- type: playTimeTracker
+  id: JobPrefect
+
+# Peacekeeping
+
+- type: playTimeTracker
+  id: JobSergeant
+
+- type: playTimeTracker
+  id: JobWatchman
+
+- type: playTimeTracker
+  id: JobInspector
+
+- type: playTimeTracker
+  id: JobPeacekeeper
