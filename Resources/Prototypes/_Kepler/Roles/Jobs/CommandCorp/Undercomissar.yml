@@ -3,6 +3,7 @@
   name: job-name-cm-undercommissar
   description: job-description-cm-undercommissar
   playTimeTracker: JobUndercommissar
+  icon: "JobIconUndercommissar"
   weight: 100
   startingGear: UndercommissarGear
   canBeAntag: false

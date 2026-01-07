@@ -495,3 +495,21 @@
     sprite: /Textures/_Kepler/Interface/Misc/job_icons.rsi
     state: Commissar
   jobName: job-name-cm-commissar
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconUndercommissar
+  icon:
+    sprite: /Textures/_Kepler/Interface/Misc/job_icons.rsi
+    state: Undercommissar
+  jobName: job-name-cm-undercommissar
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconPrefect
+  icon:
+    sprite: /Textures/_Kepler/Interface/Misc/job_icons.rsi
+    state: Prefect
+  jobName: job-name-cm-prefect
+
+

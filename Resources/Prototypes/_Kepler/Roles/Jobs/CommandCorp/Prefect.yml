@@ -2,6 +2,7 @@
   id: Prefect
   name: job-name-cm-prefect
   description: job-description-cm-prefect
+  icon: "JobIconPrefect"
   playTimeTracker: JobPrefect
   weight: 95
   startingGear: PrefectGear
