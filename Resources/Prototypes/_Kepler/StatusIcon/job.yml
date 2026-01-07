@@ -1,8 +1,0 @@
-# CommandCorp
-- type: jobIcon
-  parent: JobIcon
-  id: JobIconCommissar
-  icon:
-    sprite: *icon-rsi
-    state: Commissar
-  jobName: job-name-cm-commissar
