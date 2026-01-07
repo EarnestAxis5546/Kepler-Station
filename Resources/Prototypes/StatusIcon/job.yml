@@ -492,6 +492,6 @@
   parent: JobIcon
   id: JobIconCommissar
   icon:
-    sprite: /Textures/Kepler_/Interface/Misc/job_icons.rsi/Commissar.png
+    sprite: /Textures/_Kepler/Interface/Misc/job_icons.rsi
     state: Commissar
   jobName: job-name-cm-commissar
