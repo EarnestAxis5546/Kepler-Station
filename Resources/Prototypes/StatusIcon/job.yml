@@ -27,11 +27,11 @@
 
 - type: jobIcon
   parent: JobIcon
-  id: JobIconCommissar
+  id: JobIconCaptain
   icon:
     sprite: *icon-rsi
-    state: Commissar
-  jobName: job-name-cm-commissar
+    state: Captain
+  jobName: job-name-captain
 
 - type: jobIcon
   parent: JobIcon
@@ -486,3 +486,12 @@
     sprite: *icon-rsi
     state: Unknown
   jobName: job-name-unknown
+
+# Command Corp
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCommissar
+  icon:
+    sprite: *icon-rsi
+    state: Commissar
+  jobName: job-name-cm-commissar
