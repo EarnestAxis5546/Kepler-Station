@@ -3,6 +3,7 @@
   name: job-name-cm-commissar
   description: job-description-cm-commissar
   playTimeTracker: JobCommissar
+  icon: "JobIconCommissar"
   weight: 102
   startingGear: ComissarGear
   canBeAntag: false

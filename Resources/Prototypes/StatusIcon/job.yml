@@ -23,15 +23,15 @@
     state: ShaftMiner
   jobName: job-name-salvagespec
 
-# Command
+# Com
 
 - type: jobIcon
   parent: JobIcon
-  id: JobIconCaptain
+  id: JobIconCommissar
   icon:
     sprite: *icon-rsi
-    state: Captain
-  jobName: job-name-captain
+    state: Commissar
+  jobName: job-name-cm-commissar
 
 - type: jobIcon
   parent: JobIcon
