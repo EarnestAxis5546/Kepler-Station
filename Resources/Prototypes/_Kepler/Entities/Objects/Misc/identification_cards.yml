@@ -13,6 +13,14 @@
       state: Commissar
   - type: PresetIdCard
     job: Commissar
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - WhitelistChameleon
+    - WhitelistChameleonIdCard
+    - HighRiskItem
+  - type: StealTarget
+    stealGroup: CommissarIDCard
 
 - type: entity
   parent: IDCardStandard
@@ -41,3 +49,45 @@
       state: Commissar
   - type: PresetIdCard
     job: Prefect
+
+- type: entity
+  parent: IDCardStandard
+  id: PeacekeeperIDCard
+  name: Peacekeeper access card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - sprite: &icon-rsi _Kepler/Interface/Misc/job_icons.rsi
+      offset: &icon-offset -0.09375, 0.0625 #3 pixels left, 2 pixels up
+      state: Peacekeeper
+  - type: PresetIdCard
+    job: Peacekeeper
+
+- type: entity
+  parent: IDCardStandard
+  id: InspectorIDCard
+  name: Inspector access card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - sprite: &icon-rsi _Kepler/Interface/Misc/job_icons.rsi
+      offset: &icon-offset -0.09375, 0.0625 #3 pixels left, 2 pixels up
+      state: Inspector
+  - type: PresetIdCard
+    job: Inspector
+
+- type: entity
+  parent: IDCardStandard
+  id: WatchmanIDCard
+  name: Watchman access card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - sprite: &icon-rsi _Kepler/Interface/Misc/job_icons.rsi
+      offset: &icon-offset -0.09375, 0.0625 #3 pixels left, 2 pixels up
+      state: Watchman
+  - type: PresetIdCard
+    job: Watchman

@@ -15,6 +15,21 @@
         },
         {
             "name": "Prefect"
+        },
+        {
+            "name": "Dispatcher"
+        },
+        {
+            "name": "Inspector"
+        },
+        {
+            "name": "Watchman"
+        },
+        {
+            "name": "Peacekeeper"
+        },
+        {
+            "name": "Sergeant"
         }
     ]
 }
