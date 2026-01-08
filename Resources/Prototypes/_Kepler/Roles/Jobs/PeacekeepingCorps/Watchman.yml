@@ -3,6 +3,7 @@
   name: job-name-pc-watchman
   description: job-description-pc-watchman
   playTimeTracker: JobWatchman
+  icon: "JobIconWatchman"
   weight: 100
   startingGear: WatchmanGear
   canBeAntag: false

@@ -16,6 +16,20 @@
 
 - type: entity
   parent: IDCardStandard
+  id: CommissarIDCard
+  name: Commissar access card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - sprite: *icon-rsi
+      offset: *icon-offset
+      state: Commissar
+  - type: PresetIdCard
+    job: Commissar
+
+- type: entity
+  parent: IDCardStandard
   id: PrefectIDCard
   name: Prefect access card
   components:
@@ -27,6 +41,8 @@
       state: Prefect
   - type: PresetIdCard
     job: Prefect
+
+# Peacekeepers
 
 - type: entity
   parent: IDCardStandard
@@ -69,3 +85,17 @@
       state: Watchman
   - type: PresetIdCard
     job: Watchman
+
+- type: entity
+  parent: IDCardStandard
+  id: SergeantIDCard
+  name: Sergeant access card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - sprite: *icon-rsi
+      offset: *icon-offset
+      state: Sergeant
+  - type: PresetIdCard
+    job: Sergeant

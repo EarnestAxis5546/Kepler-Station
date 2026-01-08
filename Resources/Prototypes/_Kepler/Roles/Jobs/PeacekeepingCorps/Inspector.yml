@@ -3,6 +3,7 @@
   name: job-name-pc-inspector
   description: job-description-pc-inspector
   playTimeTracker: JobInspector
+  icon: "JobIconInspector"
   weight: 100
   startingGear: InspectorGear
   canBeAntag: false
