@@ -8,7 +8,7 @@
   - type: Sprite
     layers:
     - state: default
-    - sprite: _Kepler/Interface/Misc/job_icons.rsi
+    - sprite: &icon-rsi _Kepler/Interface/Misc/job_icons.rsi
       offset: &icon-offset -0.09375, 0.0625 #3 pixels left, 2 pixels up
       state: Undercommissar
   - type: PresetIdCard
@@ -22,8 +22,50 @@
   - type: Sprite
     layers:
     - state: default
-    - sprite: _Kepler/Interface/Misc/job_icons.rsi
-      offset: &icon-offset -0.09375, 0.0625 #3 pixels left, 2 pixels up
+    - sprite: *icon-rsi
+      offset: *icon-offset
       state: Prefect
   - type: PresetIdCard
     job: Prefect
+
+- type: entity
+  parent: IDCardStandard
+  id: PeacekeeperIDCard
+  name: Peacekeeper access card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - sprite: *icon-rsi
+      offset: *icon-offset
+      state: Peacekeeper
+  - type: PresetIdCard
+    job: Peacekeeper
+
+- type: entity
+  parent: IDCardStandard
+  id: InspectorIDCard
+  name: Inspector access card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - sprite: *icon-rsi
+      offset: *icon-offset
+      state: Inspector
+  - type: PresetIdCard
+    job: Inspector
+
+- type: entity
+  parent: IDCardStandard
+  id: WatchmanIDCard
+  name: Watchman access card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - sprite: *icon-rsi
+      offset: *icon-offset
+      state: Watchman
+  - type: PresetIdCard
+    job: Watchman
