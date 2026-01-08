@@ -13,14 +13,6 @@
       state: Commissar
   - type: PresetIdCard
     job: Commissar
-  - type: Tag
-    tags:
-    - DoorBumpOpener
-    - WhitelistChameleon
-    - WhitelistChameleonIdCard
-    - HighRiskItem
-  - type: StealTarget
-    stealGroup: CommissarIDCard
 
 - type: entity
   parent: IDCardStandard
