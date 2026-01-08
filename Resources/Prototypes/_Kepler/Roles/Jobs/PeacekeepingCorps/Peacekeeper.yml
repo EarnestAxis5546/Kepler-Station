@@ -3,7 +3,6 @@
   name: job-name-pc-peacekeeper
   description: job-description-pc-peacekeeper
   playTimeTracker: JobPeacekeeper
-  icon: "JobIconPeacekeeper"
   weight: 100
   startingGear: PeacekeeperGear
   canBeAntag: false
