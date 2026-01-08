@@ -8,7 +8,7 @@
   - type: Sprite
     layers:
     - state: default
-    - sprite: &icon-rsi _Kepler/Interface/Misc/job_icons.rsi
+    - sprite: _Kepler/Interface/Misc/job_icons.rsi
       offset: &icon-offset -0.09375, 0.0625 #3 pixels left, 2 pixels up
       state: Undercommissar
   - type: PresetIdCard
@@ -22,7 +22,7 @@
   - type: Sprite
     layers:
     - state: default
-    - sprite: &icon-rsi _Kepler/Interface/Misc/job_icons.rsi
+    - sprite: _Kepler/Interface/Misc/job_icons.rsi
       offset: &icon-offset -0.09375, 0.0625 #3 pixels left, 2 pixels up
       state: Prefect
   - type: PresetIdCard
