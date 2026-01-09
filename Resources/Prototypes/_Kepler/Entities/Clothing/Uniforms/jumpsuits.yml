@@ -8,3 +8,14 @@
     sprite: _Kepler/Clothing/Uniforms/Jumpsuit/commissar.rsi
   - type: Clothing
     sprite: _Kepler/Clothing/Uniforms/Jumpsuit/commissar.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, BaseCommandContraband]
+  id: ClothingUniformJumpsuitPeacekeeper
+  name: peacekeeper's jumpsuit
+  description: It's a formal Peacekeeper suit.
+  components:
+  - type: Sprite
+    sprite: _Kepler/Clothing/Uniforms/Jumpsuit/peacekeeper.rsi
+  - type: Clothing
+    sprite: _Kepler/Clothing/Uniforms/Jumpsuit/peacekeeper.rsi
