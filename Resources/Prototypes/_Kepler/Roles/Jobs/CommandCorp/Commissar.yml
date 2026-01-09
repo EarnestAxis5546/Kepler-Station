@@ -5,7 +5,7 @@
   playTimeTracker: JobCommissar
   icon: "JobIconCommissar"
   weight: 102
-  startingGear: ComissarGear
+  startingGear: CommissarGear
   canBeAntag: false
   requirements:
     - !type:OverallPlaytimeRequirement
@@ -23,9 +23,9 @@
       - type: CommandStaff
 
 - type: startingGear
-  id: ComissarGear
+  id: CommissarGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitMercenary
+    jumpsuit: ClothingUniformJumpsuitCommissar
     pocket1: WeaponPistolMk58
   storage:
     back:
