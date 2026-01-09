@@ -3,6 +3,7 @@
   name: job-name-pc-sergeant
   description: job-description-pc-sergeant
   playTimeTracker: JobSergeant
+  icon: "JobIconSergeant"
   weight: 100
   startingGear: SergeantGear
   canBeAntag: false

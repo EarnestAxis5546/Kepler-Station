@@ -512,4 +512,38 @@
     state: Prefect
   jobName: job-name-cm-prefect
 
+# PeaceKepeers
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconPeacekeeper
+  icon:
+    sprite: /Textures/_Kepler/Interface/Misc/job_icons.rsi
+    state: Peacekeeper
+  jobName: job-name-pc-peacekeeper
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSergeant
+  icon:
+    sprite: /Textures/_Kepler/Interface/Misc/job_icons.rsi
+    state: Sergeant
+  jobName: job-name-pc-sergeant
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconWatchman
+  icon:
+    sprite: /Textures/_Kepler/Interface/Misc/job_icons.rsi
+    state: Watchman
+  jobName: job-name-pc-watchman
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconInspector
+  icon:
+    sprite: /Textures/_Kepler/Interface/Misc/job_icons.rsi
+    state: Inspector
+  jobName: job-name-pc-inspector
+
 
