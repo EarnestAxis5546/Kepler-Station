@@ -24,4 +24,6 @@
 - type: startingGear
   id: PeacekeeperGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitMercenary
+    jumpsuit: ClothingUniformJumpsuitPeacekeeper
+    shoes: ClothingShoesBootsPeace
+    id: PeacekeeperIDCard
