@@ -27,6 +27,8 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitCommissar
     pocket1: WeaponPistolMk58
+    shoes: ClothingShoesBootsLaceup
+    id: CommissarIDCard
   storage:
     back:
     - Flash
