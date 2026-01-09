@@ -5,6 +5,6 @@
   description: Boots that have gone through many conflicts and that have proven their combat reliability.
   components:
   - type: Sprite
-    sprite: _kepler/Clothing/Shoes/Boots/peaceboots.rsi
+    sprite: _Kepler/Clothing/Shoes/Boots/peaceboots.rsi
   - type: Clothing
-    sprite: _kepler/Clothing/Shoes/Boots/peaceboots.rsi
+    sprite: _Kepler/Clothing/Shoes/Boots/peaceboots.rsi
