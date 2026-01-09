@@ -1,0 +1,10 @@
+- type: entity
+  parent: [ClothingUniformBase, BaseCommandContraband]
+  id: ClothingUniformJumpsuitCommissar
+  name: commissar's jumpsuit
+  description: It's a formal Commissar suit.
+  components:
+  - type: Sprite
+    sprite: _Kepler/Clothing/Uniforms/Jumpsuit/commissar.rsi
+  - type: Clothing
+    sprite: _Kepler/Clothing/Uniforms/Jumpsuit/commissar.rsi
